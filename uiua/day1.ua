@@ -12,4 +12,4 @@ ReadWords ← (
 ReadNums ← ⬚0/↥⊠(□×⊙(=⊢$"_").)+1⇡9
 PartTwo ← /+≡(+⊃(×10⊢|⊢⇌)⍜⊔(▽≠0.))⬚0↥⊃ReadNums ReadWords
 
-(PartOne|PartTwo) parse ⊔⊡1&args
+(PartOne|PartTwo) -1 parse ⊔⊡1&args
