@@ -1,0 +1,2 @@
+I solved day 2 initially without writing code, just using selection manipulation features of Helix and a calculator.
+I might add a description of my procedure here later.
