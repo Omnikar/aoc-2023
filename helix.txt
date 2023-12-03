@@ -1,0 +1,5 @@
+If a day checkbox links to this file, it means I solved that day
+initially without writing code, just using selection manipulation
+features of Helix and a calculator.
+
+I might add descriptions of my procedures to this repository later.
