@@ -1,7 +1,7 @@
 - [x] Day 1 ([Uiua](/uiua/day1.ua))
 - [x] Day 2 ([Helix](/helix.txt))
 - [x] Day 3 ([Helix](/helix.txt))
-- [ ] Day 4
+- [x] Day 4 ([Uiua](/uiua/day2.ua))
 - [ ] Day 5
 - [ ] Day 6
 - [ ] Day 7
