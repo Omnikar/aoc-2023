@@ -5,12 +5,12 @@ SumCards! ← /+×+1⍏⍏≡(⊂⊂^1.3)
 PartOne ← SumCards!⊃(
   ¯⧻⊝
 | /↥°⊚⊛
-| ↘13⊛⊂"23456789TJQKA"
+| ⊗:"23456789TJQKA"
 )
 PartTwo ← SumCards!⊃(
   ¯↥1-⊃(∊@J|⧻⊝)
 | +⊃(/+=@J|/↥°⊚⊛▽≠@J.)
-| ↘13⊛⊂"J23456789TQKA"
+| ⊗:"J23456789TQKA"
 )
 
 (PartOne|PartTwo) -1⋕⊡1&args
