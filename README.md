@@ -6,9 +6,7 @@
   - [x] Part 1
   - [ ] Part 2
 - [x] Day 6 ([Uiua](/uiua/day6.ua))
-- [ ] Day 7 ([Uiua](/uiua/day7.ua))
-  - [x] Part 1
-  - [ ] Part 2
+- [x] Day 7 ([Uiua](/uiua/day7.ua))
 - [ ] Day 8
 - [ ] Day 9
 - [ ] Day 10
