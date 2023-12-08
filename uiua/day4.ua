@@ -4,4 +4,4 @@
 PartOne ← /+⌊ⁿ:2-1
 PartTwo ← /+∧(⊂+1/+↙⊙.):[]⇌ # Iterate backwards, collecting card counts
 
-(PartOne|PartTwo) -1 parse ⊔⊡1&args
+(PartOne|PartTwo) -1⋕⊡1&args
