@@ -7,7 +7,9 @@
   - [ ] Part 2
 - [x] Day 6 ([Uiua](/uiua/day6.ua))
 - [x] Day 7 ([Uiua](/uiua/day7.ua))
-- [ ] Day 8
+- [ ] Day 8 ([Rust](/rust/src/days/day8.rs))
+  - [x] Part 1
+  - [ ] Part 2
 - [ ] Day 9
 - [ ] Day 10
 - [ ] Day 11
