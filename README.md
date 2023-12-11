@@ -12,7 +12,7 @@
   - [ ] Part 2
 - [x] Day 9 ([Uiua](/uiua/day9.ua))
 - [ ] Day 10
-- [ ] Day 11
+- [x] Day 11 ([Uiua](/uiua/day11.ua))
 - [ ] Day 12
 - [ ] Day 13
 - [ ] Day 14
