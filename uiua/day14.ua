@@ -10,17 +10,13 @@ Left ← ;⍢(ShiftLeft.⊙;|¬≍):[]
 Up ← ⍜⍉Left
 Down ← ⍜⇌Up
 Right ← ⍜⍉Down
-
-NorthLoad ← /+♭×+1⇡⧻.=@O⇌
-
 Spin ← Right Down Left Up
-
-PartOne ← NorthLoad Up
 
 PartTwo ← (
   ⍢(⊃Spin⊂|¬∊)⊃Spin¤
-  ⊃(-:1e9)↘⊗⊙.⊙⇌
-  NorthLoad⊡◿⧻,
+  ⊡◿⧻,⊃(-:1e9)↘⊗⊙.⊙⇌
 )
 
-(PartOne|PartTwo) -1⋕⊡1&args
+(Up|PartTwo) -1⋕⊡1&args
+
+/+♭×+1⇡⧻.=@O⇌
