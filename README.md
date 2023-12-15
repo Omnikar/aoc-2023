@@ -15,9 +15,7 @@
 - [x] Day 11 ([Uiua](/uiua/day11.ua))
 - [ ] Day 12
 - [ ] Day 13
-- [ ] Day 14 ([Uiua](/uiua/day14.ua))
-  - [x] Part 1
-  - [ ] Part 2
+- [x] Day 14 ([Uiua](/uiua/day14.ua))
 - [ ] Day 15
 - [ ] Day 16
 - [ ] Day 17

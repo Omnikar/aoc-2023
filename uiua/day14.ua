@@ -6,9 +6,21 @@ ShiftLeft ← (
   ∧(⍜(⊏⊙⊡|↻≍".O".)+0_1°⊟)
 )
 
-PartOne ← (
-  ⍉;⍢(ShiftLeft.⊙;)(¬≍):[]⍉
-  /+♭×+1⇡⧻.=@O⇌
+Left ← ;⍢(ShiftLeft.⊙;|¬≍):[]
+Up ← ⍜⍉Left
+Down ← ⍜⇌Up
+Right ← ⍜⍉Down
+
+NorthLoad ← /+♭×+1⇡⧻.=@O⇌
+
+Spin ← Right Down Left Up
+
+PartOne ← NorthLoad Up
+
+PartTwo ← (
+  ⍢(⊃Spin⊂|¬∊)⊃Spin¤
+  ⊃(-:1e9)↘⊗⊙.⊙⇌
+  NorthLoad⊡◿⧻,
 )
 
-PartOne
+(PartOne|PartTwo) -1⋕⊡1&args
