@@ -21,7 +21,7 @@
   - [ ] Part 2
 - [x] Day 16 ([Uiua](/uiua/day16.ua))
 - [ ] Day 17
-- [ ] Day 18
+- [x] Day 18 ([Uiua](/uiua/day18.ua))
 - [ ] Day 19
 - [ ] Day 20
 - [ ] Day 21
