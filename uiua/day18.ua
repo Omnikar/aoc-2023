@@ -2,6 +2,9 @@
 
 # Assuming the input provided travels clockwise,
 # reverse so that it becomes counterclockwise.
+# If this assumption is false, the output will
+# be a negative number equal in magnitude to the
+# interior of the shape, excluding its boundary.
 ⇌⊜(⍜°{⊙⊙∘}⊓⊓⊢⋕(↙6↘2)⊜□≠@ .)≠@\n.
 
 # Wrapping Windows
