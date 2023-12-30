@@ -22,7 +22,9 @@
 - [x] Day 16 ([Uiua](/uiua/day16.ua))
 - [ ] Day 17
 - [x] Day 18 ([Uiua](/uiua/day18.ua))
-- [ ] Day 19
+- [ ] Day 19 ([Uiua](/uiua/day19.ua))
+  - [x] Part 1
+  - [ ] Part 2
 - [ ] Day 20
 - [ ] Day 21
 - [ ] Day 22
