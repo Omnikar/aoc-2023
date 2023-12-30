@@ -25,7 +25,9 @@
 - [ ] Day 19 ([Uiua](/uiua/day19.ua))
   - [x] Part 1
   - [ ] Part 2
-- [ ] Day 20
+- [ ] Day 20 ([Rust](/rust/src/days/day20.rs))
+  - [x] Part 1
+  - [ ] Part 2
 - [ ] Day 21
 - [ ] Day 22
 - [ ] Day 23
