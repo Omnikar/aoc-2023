@@ -1,9 +1,9 @@
 +@\0&ru0 0
 °{⊙∘}⊜(□⊜□≠@\n.)¬⌕"\n\n".
 
-↻⊢⊚∵⊐(≍"in"↙2).  # Rotate so "in" state is first
+↻⊢⊚∵⊔(≍"in"↙2).  # Rotate so "in" state is first
 ⊂{"R{R}""A{A}"}  # Add stable reject and accept states
-:¤¤∵⊐(∩□⊃↙↘⊗@{.) # Separate labels and rules
+:¤¤∵⊔(∩□⊃↙↘⊗@{.) # Separate labels and rules
 ≡(
   ⊜□≠@,.↘¯1↘1°□
   ⍜(°□⊢⇌|⊂"x<∞:") # Give default always true predicate
@@ -14,16 +14,31 @@
   )
 )
 Rules ← # [R A in …]
-⊐≡(⊜⋕∊,+@0⇡10)
+≡⊔(⊜⋕∊,+@0⇡10)
 Parts ←
 
-Update ← ≡(
+UpdateOne ← ≡(
   ∩⊡⊙(Parts|Rules)
   :⊙:≡⊃↙⊡3°□:¤
   ≡(⊡:⊙°[⊙⊙∘])
-  ⊡⊢⊚<∩×,:-1×2:
+  ⊡⊢⊚<∩×,:-¬.:
 )⇡⧻.
+PartOne ← /+♭▽:Parts⍢UpdateOne(/↥>1)↯⧻Parts2
 
-PartOne ← /+♭▽:Parts⍢Update(/↥>1)↯⧻Parts2
+UpdateTwo ← (
+  ⊃⊢(↘1)
+  °{⊙∘}
+  °□⊡:Rules
+  ⊙:≡⊃↙⊡3
+  ⊙⊙(↯0_4_2[])
+  ∧(
+    :⊙°[⊙⊙∘]:
+    ⊃(⊟⊙⊃(,⊙¬)⋅+|⊟⊙⊃,⋅+)
+    ⊙⊂∩⍜⊡(⍜∩×↥,:-¬.:)
+  )
+  ⊂:▽⊃≡(/↧≡/<)≡(⊟:∩□)⇌◌
+  ⊙+⊃(▽>1|/+≡(/×≡/-⊔≡⇌⊢⇌)▽=1)≡°□≡⊢.
+)
+PartTwo ← ◌⍢UpdateTwo(±⧻)¤{2[⍥4001_1]4}0
 
-PartOne
+(PartOne|PartTwo) -1⋕⊡1&args
